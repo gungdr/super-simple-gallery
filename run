@@ -1,0 +1,2 @@
+#!/bin/bash
+docker run -p 80:80 -p 443:443 -v /home/gungdr/Project/php/:/var/www/html -v /home/gungdr/Pictures/Photo/:/var/www/html/images -d eboraas/apache-php
